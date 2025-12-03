@@ -6,8 +6,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "lockfile-lint": "^4.14.1",
-    "vite": "^6.4.1"
+    "lockfile-lint": "4.14.1",
+    "vite": "6.4.1"
   },
   "lavamoat": {
     "allowScripts": {
@@ -15,6 +15,6 @@
     }
   },
   "dependencies": {
-    "ol": "^10.7.0"
+    "ol": "10.7.0"
   }
 }
