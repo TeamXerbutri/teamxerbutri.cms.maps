@@ -1,4 +1,5 @@
 ﻿import "../css/cms.css";
+import "ol/ol.css";
 import {defaults as defaultControls, MousePosition, ZoomSlider} from "ol/control";
 import Map from "ol/Map";
 import View from "ol/View";
