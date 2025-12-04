@@ -93,7 +93,7 @@ export function initCms() {
 	
 	const railVector = new VectorLayer({
 		source: new VectorSource({
-			url: `${apiBasePath()}//cms-spoor.json`,
+			url: `${apiBasePath()}/cms-spoor.json`,
 			format: new GeoJSON(),
 		}),
 		style: function (feature) {
