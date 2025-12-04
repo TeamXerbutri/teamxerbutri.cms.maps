@@ -1,4 +1,5 @@
 ﻿import "../css/cms.css";
+import "ol/ol.css";
 import {defaults as defaultControls, MousePosition, ZoomSlider} from "ol/control";
 import Map from "ol/Map";
 import View from "ol/View";
@@ -93,7 +94,7 @@ export function initCms() {
 	
 	const railVector = new VectorLayer({
 		source: new VectorSource({
-			url: `${apiBasePath()}//cms-spoor.json`,
+			url: `${apiBasePath()}/cms-spoor.json`,
 			format: new GeoJSON(),
 		}),
 		style: function (feature) {
